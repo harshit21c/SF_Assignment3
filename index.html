@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ludo</title>
+	<link rel="stylesheet" type="text/css" href="css/css_main.css">
+</head>
+<body>
+	<div class="container">	
+		<button class="cell" id="cell1" onclick="move(this.id)"></button>
+		<button class="cell" id="cell2" onclick="move(this.id)"></button>
+		<button class="cell" id="cell3" onclick="move(this.id)"></button>
+		<button class="cell" id="cell4" onclick="move(this.id)"></button>
+		<button class="cell" id="cell5" onclick="move(this.id)"></button>
+		<button class="cell" id="cell6" onclick="move(this.id)"></button>
+		<button class="cell" id="cell7" onclick="move(this.id)"></button>
+		<button class="cell" id="cell8" onclick="move(this.id)"></button>
+		<button class="cell" id="cell9" onclick="move(this.id)"></button>
+		<button class="cell" id="cell10" onclick="move(this.id)"></button>
+		<button class="cell" id="cell11" onclick="move(this.id)"></button>
+		<button class="cell" id="cell12" onclick="move(this.id)"></button>
+		<button class="cell" id="cell13" onclick="move(this.id)"></button>
+		<button class="cell" id="cell14" onclick="move(this.id)"></button>
+		<button class="cell" id="cell15" onclick="move(this.id)"></button>
+		<button class="cell" id="cell16" onclick="move(this.id)"></button>
+		<button class="cell" id="cell17" onclick="move(this.id)"></button>
+		<button class="cell" id="cell18" onclick="move(this.id)"></button>
+		<button class="cell" id="cell19" onclick="move(this.id)"></button>
+		<button class="cell" id="cell20" onclick="move(this.id)"></button>
+		<button class="cell" id="cell21" onclick="move(this.id)"></button>
+		<button class="cell" id="cell22" onclick="move(this.id)"></button>
+		<button class="cell" id="cell23" onclick="move(this.id)"></button>
+		<button class="cell" id="cell24" onclick="move(this.id)"></button>
+		<button class="cell" id="cell25" onclick="move(this.id)"></button>
+		<button class="cell" id="cell26" onclick="move(this.id)"></button>
+		<button class="cell" id="cell27" onclick="move(this.id)"></button>
+		<button class="cell" id="cell28" onclick="move(this.id)"></button>
+		
+		<button class="locker" id="locker1" onclick="locker_a()">
+			<p class="locker_caption">LOCKER FOR A</p>
+			<p id="locker1_para">2A</p>
+		</button>
+		<button class="locker" id="locker2" onclick="locker_b()">
+			<p class="locker_caption">LOCKER FOR B</p>
+			<p id="locker2_para">2B</p>
+		</button>
+
+		<div class="display" id="display1">
+			<p id="display1_para">TURN : Player A</p>
+		</div>	
+		<div class="display" id="display2">
+			<p id="display2_para"></p>
+		</div>
+		<button class="display" id="roll" onclick="start_the_turn_by_roll()">ROLL!</button>
+
+		<form id="input_form">
+			Input:
+			<input type="number" id="dice_input">
+			<button type="button" onclick="validate_input()">Submit</button>
+			<p id="input_form_para"></p>
+		</form>	
+	</div>
+
+	<script type="text/javascript" src="js/logic.js"></script>
+</body>
+</html>

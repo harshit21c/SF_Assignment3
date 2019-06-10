@@ -1,0 +1,200 @@
+*{
+	margin : 0px;
+	padding : 0px;
+	box-sizing: border-box;
+}
+
+.container{
+	margin:0px auto;
+	width:900px;
+	
+	height:950px; 
+}
+
+/*CELLS*/
+.cell{
+	height: 75px;
+	width:75px;
+	border:1px solid black;
+	position: absolute;
+	font-size: 25px;
+}
+#cell1{
+	margin-top: 300px;
+	margin-left: 150px;
+}
+#cell2{
+	margin-top: 300px;
+	margin-left: 225px;
+}
+#cell3{
+	margin-top: 300px;
+	margin-left: 300px;
+}
+#cell4{
+	margin-top: 300px;
+	margin-left: 375px;
+}
+#cell5{
+	margin-top: 300px;
+	margin-left: 450px;
+}
+#cell6{
+	margin-top: 300px;
+	margin-left: 525px;
+}
+#cell7{
+	margin-top: 300px;
+	margin-left: 600px;
+}
+#cell8{
+	margin-top: 300px;
+	margin-left: 675px;
+}
+#cell9{
+	margin-top: 375px;
+	margin-left: 675px;
+}
+#cell10{
+	margin-top: 450px;
+	margin-left: 675px;
+}
+#cell11{
+	margin-top: 525px;
+	margin-left: 675px;
+}
+#cell12{
+	margin-top: 600px;
+	margin-left: 675px;
+}
+#cell13{
+	margin-top: 675px;
+	margin-left: 675px;
+}
+#cell14{
+	margin-top: 750px;
+	margin-left: 675px;
+}
+#cell15{
+	margin-top: 825px;
+	margin-left: 675px;
+}
+#cell16{
+	margin-top: 825px;
+	margin-left: 600px;
+}
+#cell17{
+	margin-top: 825px;
+	margin-left: 525px;
+}
+
+#cell18{
+	margin-top: 825px;
+	margin-left: 450px;
+}
+#cell19{
+	margin-top: 825px;
+	margin-left: 375px;
+}
+#cell20{
+	margin-top: 825px;
+	margin-left: 300px;
+}
+#cell21{
+	margin-top: 825px;
+	margin-left: 225px;
+}
+#cell22{
+	margin-top: 825px;
+	margin-left: 150px;
+}
+#cell23{
+	margin-top: 750px;
+	margin-left: 150px;
+}
+#cell24{
+	margin-top: 675px;
+	margin-left: 150px;
+}
+#cell25{
+	margin-top: 600px;
+	margin-left: 150px;
+}
+#cell26{
+	margin-top: 525px;
+	margin-left: 150px;
+}
+#cell27{
+	margin-top: 450px;
+	margin-left: 150px;
+}
+#cell28{
+	margin-top: 375px;
+	margin-left: 150px;
+}
+
+/*LOCKERS*/
+.locker{
+	width:100px;
+	height: 100px;
+	border:1px solid black;
+	position: absolute;
+}
+#locker1{
+	margin-left: 25px;
+	margin-top: 325px;
+}
+#locker2{
+	margin-left: 775px;
+	margin-top: 775px;
+}
+.locker_caption{
+	font-size: 20px;
+	margin-top: -25px;
+}
+#locker1_para{
+	font-size: 40px;
+	margin-bottom: -25px;
+}
+#locker2_para{
+	font-size: 40px;
+	margin-bottom: -25px;
+}
+
+/*Display + Roll*/
+.display{
+	width:200px;
+	height:75px;
+	position: absolute;
+	display: inline-block;
+	border:1px solid black;
+		text-align: center;
+}
+#display1{
+	margin-top: 488px;
+	margin-left: 350px;
+}
+#display1_para{
+	margin-top: 20px;
+	font-size: 26px;
+}
+#roll{
+	margin-top: 563px;
+	margin-left: 350px;
+	font-size: 30px;
+}
+#display2{
+	margin-top: 638px;
+	margin-left: 350px;
+}
+#display2_para{
+	margin-top: 10px;
+	font-size: 45px;
+}
+
+#input_form{
+	position: absolute;
+	margin-top: 905px;
+	margin-left: 315px;
+	text-align: center;
+}
